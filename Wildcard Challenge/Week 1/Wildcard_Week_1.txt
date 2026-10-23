@@ -1,0 +1,15 @@
+What this chart shows
+
+This visualisation answers one simple question for each lung condition: does it usually affect both lungs equally, or does it show a preference for one side? Picture folding an X-ray in half down the middle of the chest — if the disease looks roughly the same on both halves, it falls into the green zone in the middle, meaning it's bilateral or symmetric. If it clearly favours one half over the other, it falls into the red zone on the left (right-lung predominant) or the blue zone on the right (left-lung predominant).
+
+What the bilateral numbers mean
+
+Each condition carries a "% Bilateral" score, which tells us what fraction of cases show the disease affecting both lungs roughly equally, rather than concentrating on just one side. Infiltration, which appears in 17.2% of all scans, is bilateral 88% of the time — almost always showing up in both lungs together. Atelectasis, seen in 9.1% of scans, follows a similar pattern at 87% bilateral. Nodules, present in 5.6% of scans, are also mostly symmetric at 82% bilateral. The picture changes with Pneumothorax, found in 4.8% of scans, which is only 65% bilateral, showing a noticeable lean toward the left side. Effusion stands out the most: appearing in 11.5% of scans, it's bilateral in only 39% of cases, meaning roughly six out of every ten Effusion cases are concentrated on one side rather than spread across both — mostly the right side, based on this dataset.
+
+How to read this in plain terms
+
+Conditions like Infiltration, Atelectasis, and Nodule sit in the green zone because they show up in both lungs together in about eight or nine out of every ten cases. A doctor or an AI model scanning for these should expect to see signs on both sides of the chest rather than just one. Effusion tells the opposite story — with only about four in ten cases affecting both lungs, fluid buildup in this dataset is much more likely to be a single-lung problem, usually the right lung. Pneumothorax sits somewhere in between but still leans noticeably one-sided, favouring the left, with only 65% of its cases being truly bilateral.
+
+Why this matters for a hospital
+
+If a triage system or a radiologist is checking specifically for Effusion or Pneumothorax, paying closer attention to one particular lung — rather than splitting attention evenly across both — could help catch the problem faster. But for Infiltration, Atelectasis, or Nodule, both lungs need equally careful review, since these diseases don't reliably favor one side that could be used as a shortcut for faster detection.
